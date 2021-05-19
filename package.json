@@ -1,0 +1,35 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "description": "Social Media For Devlopers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "server":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anagh9/DevConnect.git"
+  },
+  "author": "Anagh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anagh9/DevConnect/issues"
+  },
+  "homepage": "https://github.com/anagh9/DevConnect#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
