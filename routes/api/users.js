@@ -81,7 +81,7 @@ router.post(
       //Something Gets Wrong
 
       console.log(err.message);
-      res.ststus(500).send("Server error");
+      res.status(500).send("Server error");
     }
   }
 );
